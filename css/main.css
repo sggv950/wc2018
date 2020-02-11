@@ -1,0 +1,121 @@
+body{
+    color: black;
+}
+
+.loadBar{
+    display: none; 
+}
+
+.bigContainer{
+    display: none;
+}
+
+.step1, .step2, .step3, .step4, step5, .step6{
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.group, .topSixteen, .qtr, .semi, .fin {
+    background-color: ghostwhite;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1%;
+    border-radius: 10%;
+}
+
+.win{
+    background-color: greenyellow;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1%;
+    border-radius: 10%;
+}
+.win p{
+    background-color: ghostwhite;
+    border-radius: 5%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+#win{
+    text-align: center;
+}
+.rules ul{
+    list-style-type: none;
+}
+
+.group ol li, .topSixteen ul li, .qtr ul li, .semi ul li, .fin ul li{
+    background-color: ghostwhite;
+    border-radius: 5%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    user-select: none;
+
+}
+
+.group ol li:nth-child(1){
+    background-color: gold;
+    
+}
+
+.group ol li:nth-child(2){
+    background-color: silver;
+    
+}
+
+h5, h4 {
+    text-align: center;
+}
+
+ul, ol{
+    padding: inherit;
+}
+
+.rules{
+    border-bottom: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#listSixteen1 .ui-selecting { background: #FECA40; }
+#listSixteen1 .ui-selected { background: #F39814; color: white; }
+#listSixteen2 .ui-selecting { background: #FECA40; }
+#listSixteen2 .ui-selected { background: #F39814; color: white; }
+#listSixteen3 .ui-selecting { background: #FECA40; }
+#listSixteen3 .ui-selected { background: #F39814; color: white; }
+#listSixteen4 .ui-selecting { background: #FECA40; }
+#listSixteen4 .ui-selected { background: #F39814; color: white; }
+#listSixteen5 .ui-selecting { background: #FECA40; }
+#listSixteen5 .ui-selected { background: #F39814; color: white; }
+#listSixteen6 .ui-selecting { background: #FECA40; }
+#listSixteen6 .ui-selected { background: #F39814; color: white; }
+#listSixteen7 .ui-selecting { background: #FECA40; }
+#listSixteen7 .ui-selected { background: #F39814; color: white; }
+#listSixteen8 .ui-selecting { background: #FECA40; }
+#listSixteen8 .ui-selected { background: #F39814; color: white; }
+#qtrId1 .ui-selecting { background: #FECA40; }
+#qtrId1 .ui-selected { background: #F39814; color: white; }
+#qtrId2 .ui-selecting { background: #FECA40; }
+#qtrId2 .ui-selected { background: #F39814; color: white; }
+#qtrId3 .ui-selecting { background: #FECA40; }
+#qtrId3 .ui-selected { background: #F39814; color: white; }
+#qtrId4 .ui-selecting { background: #FECA40; }
+#qtrId4 .ui-selected { background: #F39814; color: white; }
+#semiId1 .ui-selecting { background: #FECA40; }
+#semiId1 .ui-selected { background: #F39814; color: white; }
+#semiId2 .ui-selecting { background: #FECA40; }
+#semiId2 .ui-selected { background: #F39814; color: white; }
+#fin .ui-selecting { background: #FECA40; }
+#fin .ui-selected { background: #F39814; color: white; }

@@ -1,0 +1,464 @@
+Initial Groups
+For each correct team to reach the second round (16 teams) 0.25 points per team
+For each correct team to reach the quarter finals (8 teams) 0.5 points per team
+For each correct team to reach the semi finals (4 teams) 1 point per team
+For each correct team to reach the final (2 teams) 2 points per team
+For the winner  4 points.
+Maximum number of points that can be accrued = 20.
+The winner will be the person or persons to accumulate the most number of points.
+
+object with properties:
+top16 []
+top8 []
+top4 []
+top2 []
+top1 []
+fill the object with each user selections after submit/or phase continue
+
+
+**************
+HTML
+**************
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2 col-md-3 col-sm-4">
+      <div class="row">
+        <div class="side-bar">
+          <img class="logo" src="http://relkonsport.com/wp-content/uploads/2017/08/bg__fifa.jpg" alt="">
+          <h1 class="name">Hi Segev!</h1>
+          <ul class="rules">
+            <li>For each correct team to reach the second round (16 teams) 0.25 points per team</li>
+            <li>For each correct team to reach the quarter finals (8 teams) 0.5 points per team</li>
+            <li>For each correct team to reach the semi finals (4 teams) 1 point per team</li>
+            <li>For each correct team to reach the final (2 teams) 2 points per team</li>
+            <li>For the winner 4 points</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-10 col-md-9 col-sm-8">
+      <div class="row">
+        <main>
+          <div class="stage-container">
+              <div class="container-fluid">
+                <div class="row">
+                  <h4 class="stage-title">Group Stage: sort each group - 1st and 2nd places will move forword:</h4>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="stage-container">
+              <div class="container-fluid">
+                <div class="row">
+                  <h4 class="stage-title">Group Stage: sort each group - 1st and 2nd places will move forword:</h4>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="stage-container">
+              <div class="container-fluid">
+                <div class="row">
+                  <h4 class="stage-title">Group Stage: sort each group - 1st and 2nd places will move forword:</h4>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="stage-container">
+              <div class="container-fluid">
+                <div class="row">
+                  <h4 class="stage-title">Group Stage: sort each group - 1st and 2nd places will move forword:</h4>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="group-container">
+                      <h5 class="group-title">Group 1</h5>
+                      <ol class="group-list">
+                        <li class="list-item">Russia</li>
+                        <li class="list-item">Saudi Arabia</li>
+                        <li class="list-item">Egypt</li>
+                        <li class="list-item">Uruguay</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </main>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+************
+CSS
+************
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body,html{
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+
+.stage-container{
+  background:   linear-gradient(-45deg, #ffffff 0%,#efefef 100%);;
+  padding: 30px 15px 0px 15px;
+}
+
+
+.name{
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  text-align: center;
+  width: 140px;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 50%;
+  transform: rotate(-12deg);
+  top: 16px;
+  left: -16px;
+  opacity: .9;
+}
+
+.logo{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.rules{
+  padding: 15px 40px;
+  display: block;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #1D1F20;
+  li:not(:first-child){
+    margin-top: 15px;
+  }
+}
+
+
+
+.group-container{
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.group-list{
+  padding: 0;
+}
+
+.group-title{
+  margin-bottom: 30px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  opacity:.7;
+}
+
+.list-item{
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.13);
+  list-style-position: inside;
+}
+
+.stage-title{
+  font-size: 16px;
+  margin-left: 15px;
+    opacity: .6;
+    margin-bottom: 30px;
+}
+
+
+
+$('#submitBtn').click(function(){
+    var yesCount = 0;
+    var noCount = 0;
+    console.log("start  " + yesCount + "   "  + noCount);
+    for(var i = 1 ; i < 9 ; i++){
+        if($('topSixteen' + i + ' li').hasClass('ui-selected')){
+            yesCount++;
+        } else {
+            noCount++
+        }
+    }
+    for(var i = 1 ; i < 5 ; i++){
+        if($('qtr' + i + ' li').hasClass('ui-selected')){
+            yesCount++;
+        } else {
+            noCount++
+        }
+    }
+    for(var i = 1 ; i < 3 ; i++){
+        if($('semi' + i + ' li').hasClass('ui-selected')){
+            yesCount++;
+        } else {
+            noCount++
+        }
+    }
+    console.log("end  " + yesCount + "   "  + noCount);
+    if(yesCount !== noCount) {
+        alert('not finished');
+    } else {
+        createJson();
+    }
+});
+
+
+
+************15.05.2018**************
+post -> sign up -> recive id
+post -> resjson + id
+
+build scoreboard
+
+
+
+***** post user name and e-mail: 
+var userData = {
+    name: '',
+    email: ''
+  }
+var userDataJson;
+  
+  $('#startBtn').click(function(){
+    userData.name = $('#nameInput').val();
+    userData.email = $('#emailInput').val();
+    userDataJson = JSON.stringify(userData);
+  });
+
+fetch(https://worldgns2018.herokuapp.com/api/addUser, {
+  method: 'POST', // or 'PUT'
+  body: JSON.stringify(data), // data can be `string` or {object}!
+  headers: new Headers({
+    'Content-Type': 'application/json'
+  })
+}).then(res => res.json())
+.catch(error => console.error('Error:', error))
+.then(response => console.log('Success:', response));
+
+
+"{"id":"5b0d5338ba1d0800141fc314","res":{"groupss":[["Russia","Saudi Arabia","Egypt","Uruguay"],["Portugal","Spain","Morocco","Iran"],["France","Australia","Peru","Denmark"],["Argentina","Iceland","Croatia","Nigeria"],["Brazil","Switzerland","Costa Rica","Serbia"],["Germany","Mexico","Sweden","South Korea"],["Belgium","Panama","Tunisia","England"],["Poland","Senegal","Colombia","Japan"]],"top16":["Russia","Spain","France","Iceland","Portugal","Saudi Arabia","Argentina","Australia","Brazil","Mexico","Belgium","Senegal","Germany","Switzerland","Poland","Panama"],"top8":["Russia","France","Portugal","Argentina","Brazil","Belgium","Germany","Poland"],"top4":["Russia","Portugal","Brazil","Germany"],"top2":["Russia","Brazil"],"top1":"Russia"}}"
+
+
+
+-------------------------------------------------------------------------
+
+
+
+
+var a = {"id":"5b0d5338ba1d0800141fc314","res":{"groupss":[["Russia","Saudi Arabia","Egypt","Uruguay"],["Portugal","Spain","Morocco","Iran"],["France","Australia","Peru","Denmark"],["Argentina","Iceland","Croatia","Nigeria"],["Brazil","Switzerland","Costa Rica","Serbia"],["Germany","Mexico","Sweden","South Korea"],["Belgium","Panama","Tunisia","England"],["Poland","Senegal","Colombia","Japan"]],"top16":["Russia","Spain","France","Iceland","Portugal","Saudi Arabia","Argentina","Australia","Brazil","Mexico","Belgium","Senegal","Germany","Switzerland","Poland","Panama"],"top8":["Russia","France","Portugal","Argentina","Brazil","Belgium","Germany","Poland"],"top4":["Russia","Portugal","Brazil","Germany"],"top2":["Russia","Brazil"],"top1":"Russia"}}
+
+var b = JSON.stringify(a);
+var c = JSON.parse(b);
+
+
+
+
+for (var i = 0 ; i < 8 ; i++){
+    console.log("group " + (i+1));
+    for (var j = 0 ; j < 4 ; j++){
+        console.log(a.groupss[i][j]);
+    }
+}
+for (var i = 0 ; i < 8 ; i++){
+    console.log("top16 " + (i+1));
+    for (var j = 0 ; j < 2 ; j++){
+        console.log(a.top16[j+i+1*i]);
+    }
+}
+
+
+
+-------------------------------------------------------------------------
+
+
+    var acBet = JSON.parse(localStorage.getItem('acbet'));
+    for (var i = 0 ; i < 8 ; i++){
+        for(var j = 0 ; j < 4 ; j++){
+            $('#group' + (i + 1) + ' li:nth-child('+ (j + 1) +')').text(obj.groupss[i][j]);
+            if(obj.groupss[i][j] == acBet.res.groupss[i][j]){
+                $('#group' + (i + 1) + ' li:nth-child('+ (j + 1) +')').css('background-color', 'gold');
+            } else {
+                $('#group' + (i + 1) + ' li:nth-child('+ (j + 1) +')').css('background-color', 'red');
+                $('#group' + (i + 1) + ' li:nth-child('+ (j + 1) +')').attr("data-toggle","tooltip")
+                $('#group' + (i + 1) + ' li:nth-child('+ (j + 1) +')').attr("data-placement", "right")
+                $('#group' + (i + 1) + ' li:nth-child('+ (j + 1) +')').attr("title", acBet.res.groupss[i][j])
+            }
+        }
+    }

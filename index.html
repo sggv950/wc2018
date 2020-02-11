@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>World cup bet 2018</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+            <a href="#" title="hi" class="navbar-brand">World Cup 2018 Bet</a>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col" id="showName"></div>
+        <div class="col-1 offset-4"></div>
+    </div>
+    <div class="container-fluid step0">
+        <form>
+            <div class="form-row">
+                <div class="col-4">
+                <input type="text" class="form-control" placeholder="Full Name">
+                </div>
+
+            </div>
+            <br>
+            <div class="form-row">
+                <div class="form-group col-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    <br>
+                    
+                </div>
+            </div>      
+        </form>
+        <button class="btn btn-primary" id="startBtn">Sign up</button>
+        <br>
+        <br>
+    </div>
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col loadBar">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+            </div>
+        </div>
+        <div class="col-1 offset-3"></div>
+    </div>
+    <br>
+
+    <div class="container-fluid bigContainer">
+
+        <div class="row rules">
+            <div class="col-1"></div>
+            <div class="col">
+                <ul>
+                    <li><strong>the rules</strong></li>
+                    <br>
+                    <li>For each correct team to reach the second round (16 teams) 0.25 points per team</li>
+                    <li>For each correct team to reach the quarter finals (8 teams) 0.5 points per team</li>
+                    <li>For each correct team to reach the semi finals (4 teams) 1 point per team</li>
+                    <li>For each correct team to reach the final (2 teams) 2 points per team</li>
+                    <li>For the winner  4 points</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container-fluid step1">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <p>Group Stage: sort each group - 1st and 2nd places will move forword:</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col group" id="group1"></div>
+                <div class="col group" id="group2"></div>
+                <div class="col group" id="group3"></div>
+                <div class="col group" id="group4"></div>
+                <div class="col-1 offset-1"></div>
+            </div>     
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col group" id="group5"></div>
+                <div class="col group" id="group6"></div>
+                <div class="col group" id="group7"></div>
+                <div class="col group" id="group8"></div>
+                <div class="col-1 offset-1"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <br>
+                    <button id="step1go">Continue</button>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        <br>
+        <div class="container-fluid step2">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <p>Top 16: Pick the winning teams:</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col topSixteen" id="topSixteen1"></div>
+                <div class="col topSixteen" id="topSixteen2"></div>
+                <div class="col topSixteen" id="topSixteen3"></div>
+                <div class="col topSixteen" id="topSixteen4"></div>
+                <div class="col-1 offset-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col topSixteen" id="topSixteen5"></div>
+                <div class="col topSixteen" id="topSixteen6"></div>
+                <div class="col topSixteen" id="topSixteen7"></div>
+                <div class="col topSixteen" id="topSixteen8"></div>
+                <div class="col-1 offset-1"></div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <br>
+                    <button id="step2go">Continue</button>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="container-fluid step3">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <p>1/4 Final: Pick the winning teams:</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col qtr" id="qtr1"></div>
+                <div class="col qtr" id="qtr2"></div>
+                <div class="col qtr" id="qtr3"></div>
+                <div class="col qtr" id="qtr4"></div>
+                <div class="col-1 offset-1"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <br>
+                    <button id="step3go">Continue</button>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="container-fluid step4">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <p>1/2 Final: Pick the winning teams:</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col semi" id="semi1"></div>
+                <div class="col semi" id="semi2"></div>
+                <div class="col-1 offset-3"></div>
+            </div>
+        
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <br>
+                    <button id="step4go">Continue</button>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="container-fluid step5">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <p>Finals: Pick the winning team</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col fin" id="fin"></div>
+                <div class="col-1 offset-4"></div>
+            </div>
+            
+        </div>
+            
+        <div class="container-fluid step6">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col win" id="win"></div>
+                <div class="col-1 offset-4"></div>
+            </div>
+            <br>
+            
+            <div class="row justify-content-center">
+                    <div class="col-2">
+                        <br>
+                        <button id="step5go">Submit</button>
+                    </div>
+                </div>
+
+                <br>
+        </div>
+    </div>
+        
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
